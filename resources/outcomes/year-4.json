@@ -1,0 +1,214 @@
+{
+    "modules": [
+     {
+      "module": "MVP - Software challenge (Semester 1)",
+      "outcomes": [
+       {
+        "outcome": "4.10.1.1",
+        "type": "Agile",
+        "descriptor": "Create a requirements document that agrees, with respect to all stakeholders involved, the purpose of the project.",
+        "explanation": "Identify who your stakeholders are. If the stakeholder is only you then its not going to fulfil the requirements for this learning outcome. You need to use the interview skills from year 3 to create evidence to generate a requirements document - this could be a backlog and initial set of sprint items. You need to be clear about the purpose of the product and what you hope to achieve during the build - i.e. what is in the minimal viable product. You need to be realistic and try and get through one complete cycle to a release as early as possible. You can then iterate. Remember the sooner you can get feedback and pivot the better the outcome. If you spend 12 weeks development time and still not released anything either through the web, an app store, side-loading or desktop installation, you may struggle.\nIf you are in work, you should consult with your line manager and discuss ideas with them that they would be happy for you to work for a small proportion of your time. This could adding a new feature to their existing software or generate a blue skies concept for them. If you have difficulty with this consult with the delivery staff. As long as the project is agreed with the staff it is considered valid."
+       },
+       {
+        "outcome": "4.10.1.2",
+        "type": "Business",
+        "descriptor": "Create a business plan for a product, including a cashflow forecast.",
+        "explanation": "Create a business plan. This should encompass LO4.10.2.2 which is the market research report for the chosen industry area. This should not be a stale document, but one that you have researched carefully based on case studies you find. Try and compile as much real data for this as possible. Sources such as Gartner magic quadrant and other similar research can help evidence a market. Cashflow forecast example can be found all over the web. We would especially recommend looking at sites dedicates to pitchdecks and startup pitches for a way to present this document.\nYou will need to work on this in parallel to the first iteration, this is normal for a startup product.\nA good resource is Technology Ventures by Dorf Byers published by McGraw Hill."
+       },
+       {
+        "outcome": "4.10.1.3",
+        "type": "Employability",
+        "descriptor": "Be fluent in written communications with the ability to articulate complex issues, selecting an appropriate structure and with appropriate tone, style and language.",
+        "explanation": "So you do not need to write anything specific for this, this learning outcome will be judged based on the presentation of the relevant documents required for this such as business plan and market research report. If you want to add extra points, you should try and present your deck several times and get feedback from the audience."
+       },
+       {
+        "outcome": "4.10.1.4",
+        "type": "Security",
+        "descriptor": "Design and develop training materials and plan end user training following software deployment, include consideration of human and technical security requirements.",
+        "explanation": "This is a learning outcome most students leave until the end but you should try and to do it as you go along with each release of the product. There needs to be a plan, training session with peers or other real people, gather feedback and then evaluate that feedback."
+       },
+       {
+        "outcome": "4.10.1.5",
+        "type": "Technical",
+        "descriptor": "Create and specify a software design for a medium-size software product using a software requirement specification, an accepted program design methodology (e.g., structured or object-oriented), and appropriate design notation.",
+        "explanation": "This is the implementation of your project. You do NOT have to write every single line of code for this. You should be working with peers to develop the functionality. You should be clear throughout who is doing what and motivate your team accordingly. Each peer you work with is responsible for completing their task however you are accountable for the final solution and its articulation within your portfolio. If you work iteratively you should always have a working product even if you do not complete all the features you want - that is ok."
+       }
+      ]
+     },
+     {
+      "module": "Lifecycle - Software challenge",
+      "outcomes": [
+       {
+        "outcome": "4.10.2.1",
+        "type": "Agile",
+        "descriptor": "Formulate a project scope, timescale, aims and objectives and be able to construct a project specification and plan for a multi-threaded project, including resources and budget.",
+        "explanation": "This is similar to LO4.10.1.1 but is more about the implementation details of the plan. You need to show you are following an industry best practice project methodology. Not skipping details that you find inconvenient without justification - because we did not do it is not a justification. Multi-threaded simply means you have multiple aspects of the project being built at the same time. This might be documentation, testing, a main feature and a secondary feature for instance. There may be times that everyone works on the same thing - that is ok, but you should explore why that happened and what impact it had. If you are keeping a diary of your day to day activity this should be trivial to look back on and reflect on."
+       },
+       {
+        "outcome": "4.10.2.2",
+        "type": "Business",
+        "descriptor": "Create a market research report for an industry.",
+        "explanation": "This was referred to in LO4.10.1.2 and should consider standard industry sources. Make sure any graphics used are attributed correctly. There are many templates you can use, take a look at a few and find a format that works for you. If you aim to answer the questions that a standard startup pitchdeck would then that will be sufficient."
+       },
+       {
+        "outcome": "4.10.2.3",
+        "type": "Employability",
+        "descriptor": "Evaluate standard selling, questioning, negotiating and closing techniques in a range of interactions and engagements, for both internal and external stakeholders.",
+        "explanation": "You will need to look at sales technique literature. Being able to sell your idea to investors as well as clients is a very important skill for a developer to have and will open many doors for you in the future. There are many good books on this as well, there is also a lot of snake skin offerings so you need to filter and assess what you are reading. It is ok to share and recommend resources with each other as long as you record where you got them from - if we see 5 of you all using the same book that is not in the reading list without recording who found it, this will be plagarism."
+       },
+       {
+        "outcome": "4.10.2.4",
+        "type": "Security",
+        "descriptor": "Review common pitfalls and mitigations in common quality assurance techniques.",
+        "explanation": "You will need a plan to make sure your product is of high enough quality. When you have a plan you can then review it for pitfalls and mitigations (see Year 3 Risks and Issues). Make sure you name the quality assurance techniques. You can refer to more detail from your notes from previous years to save time and limit repetition."
+       },
+       {
+        "outcome": "4.10.2.5",
+        "type": "Technical",
+        "descriptor": "Design, evaluate and implement a test plan for a medium-size code segment or larger.",
+        "explanation": "This learning outcome goes with LO4.10.2.4 and is the creation and implementation of the plan which you will then review for LO4.10.2.4. Think DevSecOps where the QA happens throughout the project - so again work iteratively, don't leave it all to the last minute. Delegate tasks based on need and the goals of the 3 previous years."
+       }
+      ]
+     },
+     {
+      "module": "Release - Software challenge (Semester 2)",
+      "outcomes": [
+       {
+        "outcome": "4.10.3.1",
+        "type": "Agile",
+        "descriptor": "Manage a project including identifying, evaluating and resolving deviations and the management of the problems and escalation processes.",
+        "explanation": "If you are keeping a work log - you are aren't you? Then this should be easy to write about deviations and challenges you faced. Remember you need to find external resources to try and validate your reasoning for why you had those issues and also to validate your solution. Think about looking at business, psychology and workplace literature for teamwork issues."
+       },
+       {
+        "outcome": "4.10.3.2",
+        "type": "Business",
+        "descriptor": "Create a marketing plan for communicating the product to the relevant audience.",
+        "explanation": "Think Features and Benefits from Year 2. How are you going to communicate it? Think Call for Code, where you might have produced a short video of your product. The marketing plan should simply says what your core message is and who your audience is going to be. You should then produce a small amount of materials that help convey your message - how you do that should take into account your audience."
+       },
+       {
+        "outcome": "4.10.3.3",
+        "type": "Employability",
+        "descriptor": "Evaluate the preferences, motivations, strengths and limitations of other people and apply these insights to work more effectively with and to motivate others.",
+        "explanation": "As the team lead you will need to evaluate those you work with. You need to find a way to do this constructively and systematically. This could be having 1-to-1s with the team members every week. You then need to identify actions you are taking to enable your team to succeed and to counter any challenges to the team. Again you should be looking to teamworking literature on what works well and to help add substance to any decisions you make."
+       },
+       {
+        "outcome": "4.10.3.4",
+        "type": "Security",
+        "descriptor": "Critically evaluate the properties of good software design including the nature and the role of associated documentation, appreciating that design increasingly covers the use of existing code and 3rd party elements that may be an alternative to development of code from scratch through make/buy decisions. Assess these properties in a security context and impact on the threat model.",
+        "explanation": "Choose an off the shelf piece of software, it could be open source (preferred) and evaluate it given these criteria. Ideally it should be a framework or library you are going to use in your own product. What is the decision making you are going through - this could impact licensing, ability to sell through the intended channels, security liability, financial liability. It the pain of developing the functionality \"in-house\" actually worth it to keep the IP rights. You also need to make sure you evaluate it from a threat model perspective - think foreign actors poisoning packages without you knowing. Identify similar software that have had challenges - what have they done to prevent future threats. You need to identify tradeoffs and then DECIDE on what YOU are going to and how YOU are going to proceed."
+       },
+       {
+        "outcome": "4.10.3.5",
+        "type": "Technical",
+        "descriptor": "Compose a software configuration and release pipeline that complies with industry best practices.",
+        "explanation": "What it says on the tin. You need a standard pipeline to enable your iterative development."
+       }
+      ]
+     },
+     {
+      "module": "Long tail of the software lifecycle",
+      "outcomes": [
+       {
+        "outcome": "4.11.1.1",
+        "type": "Agile",
+        "descriptor": "Explain the industry standards in software project management including PRINCE2, ISO 10006, ISO 12207 along with the SEI's CMMI methods, and integrate relevant standards into a project.",
+        "explanation": "Research these specifications. You don't need to go into details, answer questions like what are they, who uses them, why do they exist at all, what are the pros and cons. Identify which one has components that you can work into your own project in some small way, that may not be 100% but you should be able to identify a small element that you can use. DO NOT LEAVE THIS ONE TO THE END AS YOU NEED TO HAVE IT IN YOUR PLAN."
+       },
+       {
+        "outcome": "4.11.1.2",
+        "type": "Business",
+        "descriptor": "Use the principles of business transformation to create a recommendations report by being able to decompose and abstract a non-obvious business problem, structure it, collect relevant information, consider options and make recommendations.",
+        "explanation": "Whoever adopts your product will be coming from an existing product or business process. What is the plan going to be to transition them and their customers to your product? Your audience for this report or presentation is your customer. If your product is something obvious then you may need to write in the hypothetical context - this will be harder but you can probably find some good case studies to consider. Suggest you discuss your ideas with a delivery staff member before committing."
+       },
+       {
+        "outcome": "4.11.1.3",
+        "type": "Employability",
+        "descriptor": "Evaluate how personal profiling tools predict team performance in a non-trivial project.",
+        "explanation": "Research personal profiling tools and their use for team performance - this means finding a selection of academic papers and identifying the pros and cons. You should use these tools to try and predict your own teams performance and compare and contrast what happens. The non-trivial project is your fourth year project."
+       },
+       {
+        "outcome": "4.11.1.4",
+        "type": "Security",
+        "descriptor": "Research and evaluate the current threat landscape, trends and their significance.",
+        "explanation": "As it says on the tin. You should be reading technology news regularly so you could present a report or a presentation of some sort for this. It needs to cover the security issues, the trends - maybe increased performance, reduced price, or reduced size. You should then consider what their significance might be. A good place to start might be a Gartner Hype Cycle, but also the level of research using a tool like Dimensions.ai."
+       },
+       {
+        "outcome": "4.11.1.5",
+        "type": "Technical",
+        "descriptor": "Profile the performance of existing code and be able to refactor where appropriate, considering improvements to efficiency, scalability, maintainability and extensibility.",
+        "explanation": "Again what it says. The existing code could be your own code (least preferable), some open source code, a peers code that you are reviewing for your project (best). If you are doing regular code reviews this should be easy to fit into your main project. You should think how you are going to test performance and what performance means in the context of your product - its not always obvious. You should back these thoughts up with academic and/or industry literature."
+       }
+      ]
+     },
+     {
+      "module": "Enterprise transformation",
+      "outcomes": [
+       {
+        "outcome": "4.11.2.1",
+        "type": "Agile",
+        "descriptor": "Plan and create, including contingencies, a risk register (RAID log) to communicate risks and issues.",
+        "explanation": "For your project do a RAID log - as practiced in third year."
+       },
+       {
+        "outcome": "4.11.2.2",
+        "type": "Business",
+        "descriptor": "Evaluate an employer's business objectives and strategy and its position in the market and how an employer adds value to its clients through its services and/or products it provides.",
+        "explanation": "You can consider this in terms of your market research. For a competitor do a deep dive into how that competitor operates and why it does it that way. What are the main features - think the 80-20 rule for software feature usage."
+       },
+       {
+        "outcome": "4.11.2.3",
+        "type": "Employability",
+        "descriptor": "Design and apply performance evaluation tools (including 360-degree feedback) for evaluating team performance.",
+        "explanation": "This goes with LO4.11.1.3. As it says in the learning outcome - this could be a questionnaire or a structured interview. Make sure explain what 360-degree feedback is and what its purpose is. You will need to know this to be able to design one anyway!"
+       },
+       {
+        "outcome": "4.11.2.4",
+        "type": "Security",
+        "descriptor": "Investigate the components and steps of a Business Continuity Plan/Disaster Recovery Plan (BCP/DRP) (e.g. ISO/ IEC 27031) and explain how to support BCP/ DRP measurement of recovery – Recovery Time Objective (RTO)/Recovery Point Objective (RPO)/ Maximum Tolerable Downtime (MTD).",
+        "explanation": "This is a high level overview of the topic. If you can apply it to your own project then great, but as long as you explain each of these and how it impacts recovery then that is acceptable. Excellent answers will provide example numbers backed by case study literature."
+       },
+       {
+        "outcome": "4.11.2.5",
+        "type": "Technical",
+        "descriptor": "Assess existing legacy software, and review the source code if available, appreciating that part or all of the system may be implemented using an obsolete programming language.",
+        "explanation": "Take a look in the https://archive.org/details/software. Other things you can do is the master the mainframe - think COBOL, REXX - is there such a thing as an obsolete programming language? What does actually mean do you think? Make sure you provide justification through academic literature that looks at historic trends in languages and also think about the impact of legacy software in terms of security, usability, accessibility etc."
+       }
+      ]
+     },
+     {
+      "module": "Applied research",
+      "outcomes": [
+       {
+        "outcome": "4.12.1.1",
+        "type": "Agile",
+        "descriptor": "Create a quality assurance plan and evaluate project deliverables against quality requirements.",
+        "explanation": "What it says on the tin. Make sure you do this at the start of the main project, work iteratively and have multiple comparisons. Again use reflections and external sources to validate your decisions and next steps. Step one, should obviously be identifying what goes into a QA plan!"
+       },
+       {
+        "outcome": "4.12.1.2",
+        "type": "Business",
+        "descriptor": "Critically evaluate the impact of advanced algorithms in developing new capabilities for businesses, assess the impact on society, and identify future trends.",
+        "explanation": "This goes nicely with LO4.11.1.4. BUT you need to dig into the weeds about the true potential of the algorithms you have chosen - don't just regurgitate marketing hype! You should make reference to the hype but then ground this in reality with evidence from reputable academic sources."
+       },
+       {
+        "outcome": "4.12.1.3",
+        "type": "Employability",
+        "descriptor": "Manage and assess different, competing interests within and outside the organisation with excellent negotiation skills.",
+        "explanation": "Think of your organisation as your team. What are the competing interests - you each have your own learning outcomes and personal goals, but you also have the team goal and objectives. You will need to evidence how you negotiate - what was the challenge, what did you offer, what did you both settle with. If there are no opportunities for negotiation then you can write hypothetically about this type of situation, maybe backed up by a guest speaker or two. You could also base it on a case study from the news. You should use literature to back up your statements and to identify what the negotiation skill is and its value. Related learning outcomes might be 4.10.2.1 and 4.10.3.1."
+       },
+       {
+        "outcome": "4.12.1.4",
+        "type": "Security",
+        "descriptor": "Establish the impact on security of advanced algorithms for use in applications, and evaluate important social and ethical considerations in how these types of algorithms are being deployed by business and government.",
+        "explanation": "This is similar to LO4.12.1.2 but you are concentrating on the SECURITY aspects of the algorithm. Compare and contrast uses of the technology by business vs government - think surveillance for example or face tracking. All views made should made form a position of understanding and knowledge garnered from suitable literature. Again hype should not be used as fact and ensure that any judgement is able to be backed up by evidence.\nIf you do not use the word ethics in your research you have not covered this learning outcome in sufficient depth!\nJust think of the capabilities of Facebook, Meta, Tesla, Google, and its impact on surveillance, medical records, social structures, trust in establishment - the issues are endless."
+       },
+       {
+        "outcome": "4.12.1.5",
+        "type": "Technical",
+        "descriptor": "Develop detailed knowledge and understanding in one or more specialisms, some of which is informed by, or at the forefront of, the subject.",
+        "explanation": "Ideally there should be some aspect of your project that is trying to make use of specialist knowledge that makes you stand out from your peers. This could be in data, infrastructure as code, game development, simulation, blockchain, image processing, cloud automation - anything that you have a personal interest in researching. To attain this learning outcome you need to understand what the state of the art is using academic and industry literature and then convey this to others through presentation or another means that you can think of. Try and align this with your career ambitions so that you can immediately go into an interview and have an indepth conversation with someone who is also an expert in the field and you should be able to follow the conversation and be congratulated on your insightful questions. You will need to convey that you understand any maths, algorithms, challenges, tradeoffs that are part of this specialism.\nIf you work in a company - ask for advice on what would they think is a good specialism for you to have to help in your role or get your next promotion. Use this to your advantage and it will keep your motivation high."
+       }
+      ]
+     }
+    ]
+   }

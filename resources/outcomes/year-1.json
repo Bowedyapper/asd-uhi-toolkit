@@ -1,0 +1,214 @@
+{
+    "modules": [
+     {
+      "module": "Principles of Programming (Semester 1)",
+      "outcomes": [
+       {
+        "outcome": "1.1.1.1",
+        "type": "Agile",
+        "descriptor": "Explain the importance of delivering value early and often, iterating and continuously improving workflows where necessary.",
+        "explanation": "For this learning outcome you need to demonstrate through your work how and why you have delivered the functionality in the order you have.\nExample\nIf you are given a project in which you need to write tests for a piece of functionality, you need to have written the tests and reflected on the order you did them and how this benefitted the project as a whole."
+       },
+       {
+        "outcome": "1.1.1.2",
+        "type": "Business",
+        "descriptor": "Explain and apply in an individual context basic business behaviour, ethics and courtesies, demonstrating timeliness and focus when faced with distractions and the ability to complete tasks to a deadline with high quality.",
+        "explanation": "For this learning outcome you need to explain how you have applied business related practices, such as timeliness and focus during a project.\nExample\nYou might reflect on how you managed the conflict between your project work and completing a set of learning resources. You might describe how you split you day into learning and practice. You might screenshot a timetable you have developed for yourself to ensure you deliver on time."
+       },
+       {
+        "outcome": "1.1.1.3",
+        "type": "Employability",
+        "descriptor": "Discuss how the team demonstrated the following capabilities: good communication, identifying different abilities and potential, and showing respect for individuals.",
+        "explanation": "For this learning outcome you need to collect evidence of how you communicated effectively with your team.\nExample\nEvidence for this learning outcome might come from feedback from peers on how you handled criticism during a code review or from an observation by a member of the delivery staff."
+       },
+       {
+        "outcome": "1.1.1.4",
+        "type": "Security",
+        "descriptor": "Describe the nature of risk to information and information systems and define what cyber security is, and explain its importance when developing software solutions and mitigating risk.",
+        "explanation": "For this learning outcome you need to demonstrate by your practical work and reflections that you understand what cyber security is and how it affects your programming decisions.\nExample\nIn your project you might record a short video explaining the possibilities for attacking the piece of software you are working. Explaining how the software protects login credentials and anonymises certain pieces of information."
+       },
+       {
+        "outcome": "1.1.1.5",
+        "type": "Technical",
+        "descriptor": "Write programs in a variety of languages that can use common features for control flow and data structures.",
+        "explanation": "For this learning outcome you will need to evidence that you apply common programming techniques to achieve a goal.\nExample\nFor instance you might write a test where you create a list of items and feed this to a class and test the output."
+       }
+      ]
+     },
+     {
+      "module": "Applied algorithms and data structures",
+      "outcomes": [
+       {
+        "outcome": "1.1.2.1",
+        "type": "Agile",
+        "descriptor": "Identify and manage deviations from the planned schedule of a project",
+        "explanation": "For this learning outcome you need to demonstrate that your team could identify when they were not in line with their planned schedule and explain how this deviation was managed.\nExample\nAn example of evidence for this would be the original project kanban and then an adjusted one. You would add a reflection on what changed, why and how this helped you get achieve your goals."
+       },
+       {
+        "outcome": "1.1.2.2",
+        "type": "Business",
+        "descriptor": "Explain the software development process as aligned to industry practice.",
+        "explanation": "For this learning outcome you need to evidence how the processes you are using during your projects aligns with that followed in industry. In the most part this refers to how Agile is used in an industry context.\nExample\nEvidence of this might be a reflection based on a guest speaker talking about how Agile is used in their business and the similiarities to the way your team has been working. It could also be a video with your team discussing the similarities with the way you have been working and recent placements or conference talk you have watched."
+       },
+       {
+        "outcome": "1.1.2.3",
+        "type": "Employability",
+        "descriptor": "Produce and receive feedback, constructively applying appropriate techniques and incorporate it into his/her own development and life-long learning.",
+        "explanation": "For this learning outcome you need to demonstrate that you can produce feedback for yourself to enhance your development and learning. You also need to be able to provide feedback to others to help them develop their skills.\nExample\nEvidence for this might come from a code review, an observation you have done with a peer, or a reflection based on some written feedback."
+       },
+       {
+        "outcome": "1.1.2.4",
+        "type": "Security",
+        "descriptor": "Explain why cyber security matters – the importance to business and society, which includes the inclusion and significance of cyber security to critical and safety critical systems (including healthcare systems, critical national infrastructure, industrial plant automation, autonomous vehicles, mass transportation, internet of things).",
+        "explanation": "For this learning outcome you need to demonstrate an awareness of cyber security matters in the projects you are engaged in. When engaging in a project you should be thinking about the context in which the product is to be used and any associated security matters.\nExample\nEvidence for this might be a video of the team discussing security context of the product, or it might be screenshots of recent CVE reports on similar software and why these might be of interest."
+       },
+       {
+        "outcome": "1.1.2.5",
+        "type": "Technical",
+        "descriptor": "Describe algorithms an abstract level, and compare the tradeoff between memory and performance.",
+        "explanation": "For this learning outcome you are expected to demonstrate that you understand some common computer algorithms such as arrays, lists and trees. You will also be required to demonstrate that you understand how to compare algorithms in terms of the size of their inputs.\nExample\nEvidence for this learning outcome might take the form of code to a repository where you implement one or more data structures and algorithms. You might also reflect on the performance of the application you are working on and how it could be improved with the use of a different type of data structure."
+       }
+      ]
+     },
+     {
+      "module": "Creativity through patterns (Semester 2)",
+      "outcomes": [
+       {
+        "outcome": "1.1.3.1",
+        "type": "Agile",
+        "descriptor": "Discuss the importance of regular project reviews, and engage with the project review process.",
+        "explanation": "For this learning outcome you need to evidence that you have held regular project reviews and engaged with the project review process.\nExample\nEvidence for this might include videos highlighting parts of recorded project reviews and reflections about how these meetings helped the project progress and the team coordinate their actions."
+       },
+       {
+        "outcome": "1.1.3.2",
+        "type": "Business",
+        "descriptor": "Explain what a threat model is in a business context, which includes documenting what information is at risk, analysing the type and level of risk realised; and the impact of the risk being realised.",
+        "explanation": "For this learning outcome you must be able to demonstrate that you can idenfity what a threat model is, document the threats including level and impact of risk in a business context.\nExample\nAn example of evidence for this learning outcome might be a document the team has created for a project identifying the threats and a reflection on what you perceive as the benefits of drawing up such a document."
+       },
+       {
+        "outcome": "1.1.3.3",
+        "type": "Employability",
+        "descriptor": "Examine the purpose, audience and the outcomes to be achieved when communicating with stakeholders, and decide which method of communication to use and the level of formality required.",
+        "explanation": "For this learning outcome you need to demonstrate that when doing a presentation you can consider a range of factors to ensure the presentation is appropriate. This presentation might be done for a project you are working on or an external talk for instance at a coding club.\nExample\nExample evidence of this might be a recording with you presenting some information to your team, or it might a reflection on what you think would be the best way to present some information to the original development team, perhaps via a Git push request in an Open Source project."
+       },
+       {
+        "outcome": "1.1.3.4",
+        "type": "Security",
+        "descriptor": "Identify and apply industry standard static and dynamic code analysis frameworks (e.g FindBugs, Checkstyle, etc).",
+        "explanation": "Demonstrate you can apply common static and dynamic code analysis techniques to a project you are working on.\nExample\nEvidence of this might be generating associated reports or recording a screencast of you carrying out such techniques."
+       },
+       {
+        "outcome": "1.1.3.5",
+        "type": "Technical",
+        "descriptor": "Use pseudocode or programming language to implement, test and debug algorithms for manipulating data in a variety of computational settings.",
+        "explanation": "For this learning outcome you need to demonstrate your coding skills including use of testing, algorithms and coding patterns in a range of project settings.\nExample\nEvidence for this learning outcome should come from commits to either your team or personal repository for a range of projects. You can also write reflections on why you implemented your code in the way that you did."
+       }
+      ]
+     },
+     {
+      "module": "Continuous Development",
+      "outcomes": [
+       {
+        "outcome": "1.2.1.1",
+        "type": "Agile",
+        "descriptor": "Describe the software development lifecycles and processes.",
+        "explanation": "Provide evidence that you understand the software development lifecyle that you have been working through and evidence how you have been using the processes to provide structure to your working week.\nExample\nAn example of evidence for this learning outcome might be a screenshot of the kanban board for the team, and a reflection on how it has helped (or hindered) your progress during a sprint."
+       },
+       {
+        "outcome": "1.2.1.2",
+        "type": "Business",
+        "descriptor": "Explain that information is an organisational asset that has utility and a value which may be relative depending on the perspective taken, and examine it’s attributes relating to confidentiality, possession, integrity, authenticity and availability.",
+        "explanation": "For this learning outcome you need to provide evidence that you understand and can explain how information should be treated and valued within an organisation. This might be through analysing how information is used in a project you are doing or in resources that you have been reading about.\nExample\nAn example of evidence that could be used towards this learning outcome is a video describing how information for a CRM, that you are using as a project, might be protected and access to the data limited. Evidence might also come from a reflection on articles you have read about the best practices between using live data when testing software."
+       },
+       {
+        "outcome": "1.2.1.3",
+        "type": "Employability",
+        "descriptor": "Produce, implement and review a personal development plan.",
+        "explanation": "For this learning outcome you need to complete a personal development plan and refer to it in a reflection at the end of each semester.\nExample\nThe evidence for this is a completed personal development plan outlining your goals and how intend to achieve them. You might write a reflective piece at the end of each semester on how you have done in progressing towards your goals and if they have changed throughout the year."
+       },
+       {
+        "outcome": "1.2.1.4",
+        "type": "Security",
+        "descriptor": "Compare and contrast the different methods and techniques used to assure the quality of a software development processes and deliverables.",
+        "explanation": "For this learning outcome you need to evidence that you understand the different methods that you can use to ensure that you are developing quality software.\nExample\nAn example of evidence for this might be a short video or screencast of you writing tests for a piece of software and you explaining why you are writing them in a certain style."
+       },
+       {
+        "outcome": "1.2.1.5",
+        "type": "Technical",
+        "descriptor": "Select, with justification, and apply an appropriate set of tools to support the development of a range of software products of medium size.",
+        "explanation": "For this learning outcome you need to submit evidence that demonstrates you can setup and apply common tools for development. This might include version control, continuous testing tools and documentation.\nExample\nExample of evidence for this might be a docker and a jenkins definition file. It might also include a short reflection on what tools you used and the benefits these made to your development process."
+       }
+      ]
+     },
+     {
+      "module": "Databases",
+      "outcomes": [
+       {
+        "outcome": "1.3.1.1",
+        "type": "Agile",
+        "descriptor": "Examine the roles and responsibilities of a typical agile project management team and discuss how they interact.",
+        "explanation": "This learning outcome expects you learn about the different parts of a agile team and what they do on a day to day basis. As part of your team activity you should be trying to emulate these roles and to get experience of why they are important.\nExample\nEvidence you can gather for this might be reflection on the performance of the team based on the roles and responsibilities the team chose. You might also video the team discussing how they could have improved the role definitions at the end of a sprint."
+       },
+       {
+        "outcome": "1.3.1.2",
+        "type": "Business",
+        "descriptor": "Show how a business could be vulnerable to threats from systems and people.",
+        "explanation": "This learning outcome allows you to consider how a business might be vulnerable to attacks from other systems or from internal or external employees. You should be considering topics such as social engineering and viruses. You can place in the context of a business that might be running the software you are using as part of your project. As this is part of the databases module you might consider how a business's data is under threat from manipulation or deletion by attackers.\nExample\nEvidence for this might be a reflection, citing news and academic literature, highlighting particular attacks. Also you might provide evidence of consideration of a variety of threats by adding a threat analysis to your repository to refer to."
+       },
+       {
+        "outcome": "1.3.1.3",
+        "type": "Employability",
+        "descriptor": "Describe, with reference to different learning strategies, how life-long learning is important for a technical career and development in a corporate environment.",
+        "explanation": "This learning outcome asks you to consider the way you learn and how you can ensure that you are continuously keeping up to date and developing your technical and soft skills.\nExample\nExamples of evidence for this might be part of your Personal Development Plan, or identifying strengths and weaknesses in how you learn in a reflection."
+       },
+       {
+        "outcome": "1.3.1.4",
+        "type": "Security",
+        "descriptor": "Explain what is meant by the term “insider”, examining the security implications on an organisation’s network, system and data.",
+        "explanation": "This learning outcome is looking for you to understand how insiders can be a threat to an organisations IT infrastructure. For isntance, what if a developer left in a backdoor into the organisation, or a timebomb to delete key information after they have left.\nExample\nEvidence for this learning outcome might be video or written reflection on how you can check your code is authentic. As a team you might try to write a report that highlights how a system could be checked for vulnerabilities by a malicious insider."
+       },
+       {
+        "outcome": "1.3.1.5",
+        "type": "Technical",
+        "descriptor": "Explain the basic principles of a relational database and produce a relational database that incorporates key, entity integrity, and referential integrity constraints.",
+        "explanation": "This learning outcome looks at how data is structured in a persistent system such as a relational database. You will be expected to be able to demonstrate how to access and search for data.\nExample\nEvidence for this learning outcome could be code committed to a repository for creating a particular database structure. It could also be a reflection on a particular query and why it might be not as efficient as one you propose."
+       }
+      ]
+     },
+     {
+      "module": "Data Languages",
+      "outcomes": [
+       {
+        "outcome": "1.3.2.1",
+        "type": "Agile",
+        "descriptor": "Explain and illustrate the issues of quality, cost and time concerned with project implementation, including contractual obligations and resource constraints.",
+        "explanation": "For this learning outcome you are asked to consider the common qualities that are tracked with a project. You should consider potential contractual requirements and handling resource constraints. These should be reflected in the way you organise your tasks throughout the sprint.\nExample\nExample evidence might be a kanban board or burndown charts. You might reflect on how resource constraints such as time and budget have impacted your ability to complete the work."
+       },
+       {
+        "outcome": "1.3.2.2",
+        "type": "Business",
+        "descriptor": "Describe the importance of time management and be able to demonstrate competence in its application.",
+        "explanation": "This learning outcome is about how you structure your time to achieve your goals. This can be considered in terms of personal learning goals or team goals. Your Personal Development Plan and team sprints should provide evidence for how you currently structure and how you could structure your time to maximise productivity.\nExample\nExample evidence for this include reflections and kanban boards showing time management techniques. You should try and to show progress over time and highlight the decisions made by both you and the wider team to manage time."
+       },
+       {
+        "outcome": "1.3.2.3",
+        "type": "Employability",
+        "descriptor": "Show how teams work effectively to produce technology solutions, working with team members to identify and solve problems and disagreements, sharing feedback with others on the achievement of team objectives and making suggestions and encouragement for improving team-working.",
+        "explanation": "This learning outcome asks you to consider what makes a good team and how a team can best collaborate towards common objectives.\nExample\nEvidence for this learning outcome might be a reflection by the team on its performance. It might refer to recorded meetings, conflicts and reconciliations about key decisions."
+       },
+       {
+        "outcome": "1.3.2.4",
+        "type": "Security",
+        "descriptor": "Analyse the processes and controls that need to be implemented to maintain the required level of security of a component, product, or system through its lifecycle and at end of life.",
+        "explanation": "This learning outcome asks you to consider the appropriate level of security around key parts of a system through its lifecycle. You might look at the database, data between client and host, or some other part of the system. Analyse the threats and mitigations that you could take to minimise the threats.\nExample\nEvidence might include a threat analysis of the system and reflections on recent security breaches that are similar."
+       },
+       {
+        "outcome": "1.3.2.5",
+        "type": "Technical",
+        "descriptor": "Write stored procedures that deal with parameters and have some control flow to provide given functionality.",
+        "explanation": "This learning outcome looks how to interact with a data course. In particualr it looks at using stored procedures and control flow to provide functionality within a database setting.\nExample\nExamples of evidence include committing relevant code to the repository. It might also be a reflection on discussing if a particular piece of functionality might benefit from being a stored procedure."
+       }
+      ]
+     }
+    ]
+   }

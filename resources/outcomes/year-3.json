@@ -1,0 +1,214 @@
+{
+  "modules": [
+   {
+    "module": "Industrial software design",
+    "outcomes": [
+     {
+      "outcome": "3.7.1.1",
+      "type": "Agile",
+      "descriptor": "Follow a systematic methodology for initiating, planning, executing, controlling, and closing a technology solutions project.",
+      "explanation": "Whatever projects you choose to do, you need to ensure you are SYSTEMATIC. This means documenting your process, the why, when and how you do each step. You need to be referring to external sources to justify your decisions - both industry and academic sources should be used.\nWhat is not acceptable: a bland description of agile or other project management methodology."
+     },
+     {
+      "outcome": "3.7.1.2",
+      "type": "Business",
+      "descriptor": "Evaluate the strategic importance of business processes and demonstrate an ability to document and understand them.",
+      "explanation": "What is a business process? Why do businesses use them? How do you write one? How do find what you are looking for in one? How do you spot gaps in your processes? These are some of the questions you should be asking yourself and of your sources. You need to EVALUATE this information, that is document the pros and cons and make a judgement of your own as to their worth. When are they not worth they effort and when are they not?"
+     },
+     {
+      "outcome": "3.7.1.3",
+      "type": "Employability",
+      "descriptor": "Effectively prepare and deliver presentations using relevant presentation media products, present ideas clearly and convincingly.",
+      "explanation": "You need to present information to a range of audiences, this could be staff, peers, a wider audience. You need to collect FEEDBACK from those who you presented to. Ideally you should pick a subject related to your project or learning. You should try and do 1-2 PER SEMESTER so you can develop your skills and build your confidence."
+     },
+     {
+      "outcome": "3.7.1.4",
+      "type": "Security",
+      "descriptor": "Examine and apply standards for software quality planning and assurance (e.g. ISO/IEC 9126 - international standard for the evaluation of software quality).",
+      "explanation": "You need to research specifications and standards that apply to developing software. You need to APPLY these to your own work. It is expected you will want to take notes about what are the importance aspects of each specification and which industries they are used in. Are the free or do you have to pay for them? What is the purpose of the standard? Are their tools to help implement and verify the standard? These are some of the questions you might ask."
+     },
+     {
+      "outcome": "3.7.1.5",
+      "type": "Technical",
+      "descriptor": "Compare and contrast software design and development methodologies (e.g., structured or object-oriented), and be able to apply appropriate industry standard design notation such as UML and agile user story management.",
+      "explanation": "You need to identify similarities and differences between different development methodologies - this means look at terms such as Object Orientated Design or Object Orientated Analysis. It does NOT mean object orientated coding. What is a design methodology? What does it comprise of? What is a UML diagram? Why are they used? Where are they used in industry? How do you go from the methodology on paper to implementing it? Can you use different methodologies in different projects to compare their effectiveness?"
+     }
+    ]
+   },
+   {
+    "module": "User experience design",
+    "outcomes": [
+     {
+      "outcome": "3.7.2.1",
+      "type": "Agile",
+      "descriptor": "Justify project scope, timescale, aims and objectives in the construction of a project specification.",
+      "explanation": "The topic of this is creating a project specification - in agile terms this is filling your backlog and how you update your scrum boards/kanbans with time. This is all about saying WHY you are making the choices you are. You have done this adhoc so far, you need to be SYSTEMATIC about this in third year. Where possible you should be looking for industry and academic literature to help add evidence and weight to your decisions. If you are following a process, how did you choose that process? does that process make sense in your situation? did you have to modify the process to fit in with your goals? did you follow the process to the letter or did you deviate?"
+     },
+     {
+      "outcome": "3.7.2.2",
+      "type": "Business",
+      "descriptor": "Investigate a company’s basic business functions, organisational structure and the roles of its senior leadership team.",
+      "explanation": "Look for the recommended reading BCS book Professional Issues. How are large companies structured? How does that differ to medium, small and startup companies? How are leadership formed? How do they change over time? What are the incentives for leadership teams? What about diversity in the management teams and teams in general?\nWhat not to do: Give some bland explanation based on what you think you know. Find academic resources, ask guest speakers, find Harvard Business articles on management structures."
+     },
+     {
+      "outcome": "3.7.2.3",
+      "type": "Employability",
+      "descriptor": "Conduct effective research, using literature and other media, into IT and business-related topics.",
+      "explanation": "You need to show you read the tech news and then you are interested in it! Start with some articles that are related to a project you are doing, find related literature, books and videos. What do you find interesting? What are the challenges they are trying to solve? Are they doing a good job? Are their ethical concerns? Does it apply to all industries or just a specific one. Look into how to do research effectively. For this one we are looking for an output that represents a structured and considered view of a topic."
+     },
+     {
+      "outcome": "3.7.2.4",
+      "type": "Security",
+      "descriptor": "Investigate the key steps in managing security incidents and how to apply them.",
+      "explanation": "This is a cybersecurity learning outcome, so you need to find relevant resources. You want to merge case studies which you can find online on when this happens for real, ask guest speakers, and also what you would do in your own project. For example, what happens if an API key was made public, what are the actions you would do to fix the situation."
+     },
+     {
+      "outcome": "3.7.2.5",
+      "type": "Technical",
+      "descriptor": "Assess a problem domain to establish a basis for the creation of a software design and show what the requirements of the customer are through solution design modelling.",
+      "explanation": "This learning outcome is justifying why you are doing the project you are doing. Remember this degree is about creating software PRODUCTS. What is the requirement that the customer has that you are fulfilling. This could be real, case study or hypothetical. You need to provide NUMBERS and DATA to justify your reasoning. This is give you practice at creating a PITCHDECK to investors or a client for example on why they should fund your big idea."
+     }
+    ]
+   },
+   {
+    "module": "Releasing a minimum viable product",
+    "outcomes": [
+     {
+      "outcome": "3.7.3.1",
+      "type": "Agile",
+      "descriptor": "Evaluate and apply software design and development methodology (e.g., structured or object-oriented), and be able to create appropriate industry standard design notation such as UML and agile user story management.",
+      "explanation": "This is similar to LO3.7.1.5, but look at the VERBS. This is to EVALUATE and APPLY the methodology where as the previous one was about COMPARE AND CONTRAST. This is asking you to PICK a methodology and USE it in a project and EVALUATE if it was any good or if another methodology might have worked better. You should be tagging many screenshots of your process and correspondence between team members. If you are in industry, then you should walking through in general terms what happens in given situations and then comparing this against best practice (the evaluation piece)."
+     },
+     {
+      "outcome": "3.7.3.2",
+      "type": "Business",
+      "descriptor": "Manage basic considerations: prioritisation, task versus responsibility management.",
+      "explanation": "This is asking you to demonstrate that you are doing the basic time management tasks and handling deviations. You should be collecting regular screenshots of Kanban/Scrum boards and be able to refer to minutes of meetings, who said what, who had what action. A learning outcome like this is best done with a regular short reflection on what has gone well in the week and what did not go well. Identify problems and research solutions (reference). This is all about DEMONSTRATING you have what it takes to MANAGE a project effectively. In agile terms this is managing the effectiveness of STANDUPS and RETROSPECTIVES.\nWhat is not good evidence: a single reflection saying we had a problem and we fixed it."
+     },
+     {
+      "outcome": "3.7.3.3",
+      "type": "Employability",
+      "descriptor": "Plan and implement work goals, objectives, priorities and responsibilities with others.",
+      "explanation": "This is similar to LO3.7.3.2 but is the step beforehand. Where as that was the maintenance of the plan, this is all about the initial planning meeting at the start of the project (week 0) and start of each subsequent sprints. This is all about the PLANNING meeting and DESIGN THINKING."
+     },
+     {
+      "outcome": "3.7.3.4",
+      "type": "Security",
+      "descriptor": "Apply recognised principles to the building of high-quality software components, understanding the difference between safety and quality, and show how mechanisms that improve quality may be used to partially underpin a safety argument.",
+      "explanation": "This is all about building high quality software. This ties in to the learning outcomes around specifications and also types of testing. First you need to research what ARE the principles to building high quality software. Then you need to show you understand the difference between safe software and quality software - where are they similar, where are they different? What is the safety argument? Who is making the claim that technique X is more safe? Are they right? Does it apply to all industries and situations?"
+     },
+     {
+      "outcome": "3.7.3.5",
+      "type": "Technical",
+      "descriptor": "Confidently design and apply algorithms for manipulating data in programming solutions for a variety of problems.",
+      "explanation": "Suggest doing leetcode and kaggle competitions or following some data science tutorials for this one. Whatever you choose you need to identify what the DATA is, how you are REPRESENTING it and why you are manipulating in the way that you are. This is a great learning outcome for referencing academic literature.\nNote that you need to persuade the marker what you did to DESIGN the algorithm, you cannot just plug it into a single function and say that's the design. You can however join multiple techniques together to produce an output and claim you designed that pipeline.\nTry and do something interesting such as image recognition, text analysis or something you would not normally do. You can start from a tutorial and then try and adjust the technique to a new domain for instance.\nDOCUMENT your failures as well as your successes."
+     }
+    ]
+   },
+   {
+    "module": "Software release management",
+    "outcomes": [
+     {
+      "outcome": "3.8.1.1",
+      "type": "Agile",
+      "descriptor": "Investigate the principles of quality assurance for project deliverables, including contractual obligations.",
+      "explanation": "What are these principles? What is quality assurance? What is a project deliverable? What are the standard terms in contracts that persuade the client that you have delivered what you said you would? What resource would the client have if you did not? How do these principles impact on your agile workflow? Are their case studies where these were not applied? Who came up with the principles? Did something go wrong to make someone think a principle might be a good idea?"
+     },
+     {
+      "outcome": "3.8.1.2",
+      "type": "Business",
+      "descriptor": "Explain what is meant by managing up and across the organisation, assessing people considerations.",
+      "explanation": "This could be quite a short explanation but try and think about the why in here. Why is this learning outcome here? Why do you need to think about managing those above you? What does it mean to manage someone across an organisation? How do you assess people's objectives? How does that help you manage them? Look in the business literature for research into what makes top employees and characteristics of effective leaders. Are all organisations one big family or are they separate businesses? How does this effect projects and goals?"
+     },
+     {
+      "outcome": "3.8.1.3",
+      "type": "Employability",
+      "descriptor": "Be able to appraise, present a case for, and gain commitment to, a moderately complex technology-orientated solution, demonstrating understanding of business need, using open questions and summarising skills and basic negotiating skills.",
+      "explanation": "This can be done through roleplay or asking good questions of guest speakers. If you are in industry you might have an advantage here as you can ask to sit in with early meetings if you show interest. You need to answer the question, if someone comes to you with a problem, you are going to recommend your solution - some whizz bang techstack. How are you going to persuade the client that what you are offering will solve their problem? What are the questions you could ask? Research into selling and negotiating skills. This is starting to look at advanced communication skills that businesses will find very attractive - positions such as technical sales and consultancy are built on these."
+     },
+     {
+      "outcome": "3.8.1.4",
+      "type": "Security",
+      "descriptor": "Evaluate software processes for governing software development both technically, and in terms of cost control, quality, adherence of technical strategy and IPR identification.",
+      "explanation": "Investigating governing a software project, this could a open source or a proprietary model, or you could compare both. Define your terms - what is cost control, what is quality, what is adherence to a technical strategy, what is IPR, what is IPR identification? Why are all these important concepts? What happens when these are not governed properly. How does this impact employment contracts for employees, freelancers and consultants?"
+     },
+     {
+      "outcome": "3.8.1.5",
+      "type": "Technical",
+      "descriptor": "Determine configuration management processes for use throughout the product development life cycle in storing software deliverables and controlling and tracking changes to software both at component and release level, using configuration management tools effectively, and apply change management processes properly.",
+      "explanation": "This is all about maintaining common configurations across a wide infrastructure - infrastructure as code. It includes technologies such as Docker, Kubernetes, Puppet, Chef, OpenShift, Ansible, package.json and similar files. Your dependencies both software, hardware and cloud move at different rates, how are you going to effectively manage that? You should think about this from the point of view of 3 stages, a dev infrastructure, a test infrastructure and a production infrastructure. Each of these is a release cycle and needs to be controlled and repeatable on a regular basis up to 100's of times a day. Case studies include companies such as Facebook and Netflix."
+     }
+    ]
+   },
+   {
+    "module": "Insight from data",
+    "outcomes": [
+     {
+      "outcome": "3.9.1.1",
+      "type": "Agile",
+      "descriptor": "Determine the nature of risk and describe how to respond to risks.",
+      "explanation": "This is a precursor to LO3.9.2.1. What is risk? Are there different types of risk? Are their different techniques to dealing with risk? Are there risks you cannot identify or mitigate?\nWhat not to do: make something up based on what you think is risk - find literature on risk mitigation and business continuity."
+     },
+     {
+      "outcome": "3.9.1.2",
+      "type": "Business",
+      "descriptor": "Evaluate strategic importance of data analytics for business decision making.",
+      "explanation": "What is data analytics? How does it differ to just being a database admin? Are spreadsheets enough? What is the history of data analytics? Where is it used? This is a good one to ask guest speakers about if they are talking about taking actions from data. There are numerous books and videos on making decisions from data. Is this always good? Ford supposedly said that customers did not know what they wanted until he gave it to them, so would he be persuaded by data analytics? On the practical side, give examples of analytics using kaggle data sets. What is the actionable information? What is the error? How can this be communicated to those who have no idea what you have done?"
+     },
+     {
+      "outcome": "3.9.1.3",
+      "type": "Employability",
+      "descriptor": "Demonstrate competence in gathering and evaluating information from people using a variety of techniques including interviewing.",
+      "explanation": "You need to demonstrate basic ability to carry out qualitative research techniques such as questionnaires, surveys and interviews. You can do this at the start of a sprint to gauge interest in your product, or at the end you could get peers to try and fill in the feedback form or interview them. You could get them to try some open source software and carry out some survey.\nOnce you have their responses - how are you going to analyse the data and come to a conclusion?\nThis could be a module in and of itself, but what you are trying to show is that you understand the basic concepts and mechanisms."
+     },
+     {
+      "outcome": "3.9.1.4",
+      "type": "Security",
+      "descriptor": "Maintain and manage software and hardware patching, particularly implementing vulnerability patching where vulnerabilities are identified.",
+      "explanation": "Why do you need to do this? How can you do this in a structured way? How is it done in industry? Does it always work? What happens when it doesn't? Is the risk of failure worst than not doing it? What is patching anyway? What is hardware patching? How do you recover form a bad patching? What vulnerabilities in the news required patching - think zero day vulnerabilities? What types of vulnerability are most easily fixed with patching? How does a company like Microsoft rank how important patches are?"
+     },
+     {
+      "outcome": "3.9.1.5",
+      "type": "Technical",
+      "descriptor": "Design, develop and evaluate a non-trivial big data analysis system.",
+      "explanation": "All software can be made to give off data - whether that be performance statistics or user statistics of some kind. Develop a system to analyse that and produce either a dashboard or another output that can be used to generate actionable advice. Non-trivial means that it should do more than one thing you can learn in a single tutorial and use more than one type of data. This should be able to be combined with any of the other technical learning outcomes that require development."
+     }
+    ]
+   },
+   {
+    "module": "Data led decision making",
+    "outcomes": [
+     {
+      "outcome": "3.9.2.1",
+      "type": "Agile",
+      "descriptor": "Formulate a plan to communicate risks through risk reports, registers or logs.",
+      "explanation": "Create a RAIDE document for each project you do. How are you going to communicate progress towards mitigations to your team and to stakeholders without worrying them? Do companies handle how transparent they are with RAIDE logs differently?"
+     },
+     {
+      "outcome": "3.9.2.2",
+      "type": "Business",
+      "descriptor": "Describe employment relations issues and evaluate the application of policies and procedures for managing these relationships, and the application of good practice relating to equality and diversity issues in the workplace.",
+      "explanation": "This is all about HR and the Professional Issues book covers it well. You should try to identify headline news issues that demonstrate the types of policies and procedures you are talking about. You do not need to go in depth but you do need to demonstrate more than a throwaway sentence. This requires you to REFERENCE any sources you use and justify and judgements you make. What are the common policies and procedures every company must have? What about open source projects, do they need policies and procedures? Do software companies need different policies and procedures?"
+     },
+     {
+      "outcome": "3.9.2.3",
+      "type": "Employability",
+      "descriptor": "Evaluate the motivations of internal and external stakeholders with respect to competing interests and objectives.",
+      "explanation": "This is linked to LO3.8.1.2. What are the motivations of different stakeholders? Why are they different? How can you reconcile them? What literature is there on this when things go well? when things go badly? Are their different incentives you can use to align interests. Again you will need to search the business, psychology and economics literature for this. You can also refer the professional issues recommended text. If you are in a business try and talk to colleagues that deal with clients about the different interests and motivations - how do they handle it?"
+     },
+     {
+      "outcome": "3.9.2.4",
+      "type": "Security",
+      "descriptor": "Determine residual risk and what the impacts are for an organisation.",
+      "explanation": "This goes with LO3.9.2.1 and LO3.9.1.1. What is residual risk? How does it impact an organisation? How is it recognised, identified, planned for? Look for case studies that show when this went wrong."
+     },
+     {
+      "outcome": "3.9.2.5",
+      "type": "Technical",
+      "descriptor": "Report on the requirements development process: elicitation, specification, analysis and management and the use of tools for managing requirements in the context of data.",
+      "explanation": "Pay attention to the fact that this is a DATA learning outcome. Therefore you need to identify the development process for data tools, this could be bringing together data sources form different customers within the same industry, or within different parts of an organisation. What is the incentive for them to work with you? What is a development process that will keep them interested? How would manage that?\nThis might be a good learning outcome to create questions for guest speakers about."
+     }
+    ]
+   }
+  ]
+ }
