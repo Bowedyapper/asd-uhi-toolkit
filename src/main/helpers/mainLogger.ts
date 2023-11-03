@@ -1,5 +1,5 @@
 import log, { MainLogger, Logger } from 'electron-log';
-import { app } from 'electron'
+import { app } from 'electron';
 const mainLog: MainLogger = log.create({ logId: 'mainLogger' }) as Logger & MainLogger;
 const dev = !app.isPackaged;
 
