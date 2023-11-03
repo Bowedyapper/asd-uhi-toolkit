@@ -1,5 +1,6 @@
 <script lang="ts">
   import { animationSpeed, currentView } from '$lib/stores/main';
+  import { navigate } from 'svelte-routing';
 </script>
 
 <div
@@ -22,21 +23,21 @@
   </div>
   <div class="text-white">
     <button
-      on:click={() => currentView.set('Setup')}
+      on:click={() => navigate('/')}
       type="button"
       class="xt-button py-2 px-2 text-xs rounded-md uppercase text-gray-900 bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 on:bg-gray-200"
     >
       Setup
     </button>
     <button
-      on:click={() => currentView.set('Progress')}
+      on:click={() => navigate('/Progress')}
       type="button"
       class="xt-button py-2 px-2 text-xs rounded-md uppercase text-gray-900 bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 on:bg-gray-200"
     >
       Progress
     </button>
     <button
-      on:click={() => currentView.set('Test')}
+      on:click={() => navigate('/Test')}
       type="button"
       class="xt-button py-2 px-2 text-xs rounded-md uppercase text-gray-900 bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 on:bg-gray-200"
     >

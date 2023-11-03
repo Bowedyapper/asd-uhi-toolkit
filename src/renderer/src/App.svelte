@@ -2,11 +2,16 @@
 <script lang="ts">
   import { onDestroy, onMount } from 'svelte';
   import { SvelteToast } from '@zerodevx/svelte-toast';
-  import { currentView } from '$lib/stores/main';
+  import { Router, Route } from 'svelte-routing';
   import rendererLogger from '$lib/helpers/logger';
   import DragBar from '$components/DragBar.svelte';
   import DevTools from '$components/DevTools.svelte';
-  import ViewHandler from '$components/ViewHandler.svelte';
+
+  import Setup from '$views/Setup.svelte';
+  import Progress from '$views/Progress.svelte';
+  import Test from '$views/Test.svelte';
+
+  export let url = '';
 
   onMount(() => {
     rendererLogger.silly('App.svelte mounted');
@@ -29,7 +34,11 @@
   <main
     class="flex flex-col w-screen flex-grow justify-center items-center text-white overflow-hidden"
   >
-    <ViewHandler currentView={$currentView}></ViewHandler>
+    <Router {url}>
+      <Route path="/"><Setup /></Route>
+      <Route path="/Progress"><Progress /></Route>
+      <Route path="/Test"><Test /></Route>
+    </Router>
     <SvelteToast options={{ pausable: true, classes: ['w-72'] }} />
   </main>
 </div>
