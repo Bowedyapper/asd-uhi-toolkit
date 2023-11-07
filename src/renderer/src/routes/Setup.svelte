@@ -9,9 +9,9 @@
   import rendererLogger from '$lib/helpers/logger';
 
   const page = new URLSearchParams(window.location.search);
-  let studentYearTextTimeline;
+  let studentYearTextTimeline: GSAPTimeline;
   let scene: number = 1;
-  let lastTimeline;
+  let lastTimeline: GSAPTimeline;
   onMount(() => {
     rendererLogger.silly('Setup.svelte mounted');
   });

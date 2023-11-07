@@ -7,9 +7,9 @@
   import DragBar from '$components/DragBar.svelte';
   import DevTools from '$components/DevTools.svelte';
 
-  import Setup from '$views/Setup.svelte';
-  import Progress from '$views/Progress.svelte';
-  import Test from '$views/Test.svelte';
+  import Setup from '$routes/Setup.svelte';
+  import Progress from '$routes/Progress.svelte';
+  import Test from '$routes/Test.svelte';
 
   export let url = '';
 

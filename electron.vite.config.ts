@@ -17,7 +17,7 @@ export default defineConfig({
     resolve: {
       alias: [
         { find: '$lib', replacement: path.resolve(__dirname, 'src/renderer/src/lib') },
-        { find: '$views', replacement: path.resolve(__dirname, 'src/renderer/src/views') },
+        { find: '$routes', replacement: path.resolve(__dirname, 'src/renderer/src/routes') },
         {
           find: '$components',
           replacement: path.resolve(__dirname, 'src/renderer/src/components')
