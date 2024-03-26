@@ -1,4 +1,4 @@
-import { app, BrowserWindow, ipcMain, globalShortcut } from 'electron';
+import { app, BrowserWindow, ipcMain, globalShortcut, shell } from 'electron';
 import contextMenu from 'electron-context-menu';
 import { electronApp, optimizer } from '@electron-toolkit/utils';
 import createScreens, { screens } from './lib/screens';
@@ -6,10 +6,20 @@ import mainLogger from './helpers/mainLogger';
 import rendererLogger from './helpers/rendererLogger';
 import gitClone from './lib/git/gitClone';
 import getUsers from './lib/git/getUsers';
-import extractEvidenceCommits from './lib/git/extractEvidenceCommits';
-import getEvidence from './lib/getEvidence';
+import extractLearningOutcomes from './lib/extractLearningOutcomes';
+import getOutcomeDetails from './lib/getOutcomeDetails';
+import getAllStudentEvidence from './lib/getAllStudentEvidence';
+import { readFileSync } from 'fs';
+import gitParse from './lib/git/gitParse';
+import renderMarkdown from './lib/renderMarkdown';
+import fetchRepos from './lib/git/fetchRepos';
 
+import fs from 'fs';
+import path from 'path';
+import extractLogs from './lib/git/extractLogs';
 const dev = !app.isPackaged;
+
+process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true'; // Disable CSP warnings, this is a local program so we don't need to worry about this
 
 mainLogger.debug('Initialising asd tool....');
 mainLogger.debug('App store directory: ' + app.getPath('userData'));
@@ -27,7 +37,7 @@ app.once('ready', () => {
     screens.mainWindow.show();
     screens.mainWindow.focus();
     screens.splashScreen.close();
-  }, 2500);
+  }, 1);
 });
 
 app.whenReady().then(() => {
@@ -53,6 +63,8 @@ app.whenReady().then(() => {
     showCopyImage: false,
     showInspectElement: dev ? true : false,
     showSelectAll: false,
+    //temporary until i work out how to use the context menu
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     prepend: (_defaultActions, _params, _browserWindow) => [
       {
         label: 'placeholder'
@@ -112,42 +124,44 @@ ipcMain.handle('git-clone', async (_event, data) => {
 });
 
 ipcMain.handle('get-git-users', async (_event, data) => {
-  return new Promise(async (resolve) => {
-    // Temporary until i work out why it doesnt wait for users, triggers error in renderer
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+  return new Promise((resolve) => {
+    // Temporary until i work out why it doesn't wait for users, triggers error in renderer
+    //await new Promise((resolve) => setTimeout(resolve, 1000));
     const users = getUsers(data);
     mainLogger.debug(`get-git-users invoked with ${data} and returned ${users.length} users`);
     resolve(users);
   });
 });
 
-ipcMain.handle('get-year-los', async (_event, data) => {
+ipcMain.handle('get-learning-outcomes', async (_event, data: number) => {
+  if (typeof data !== 'number') throw new Error('Year must be a number');
   try {
-    mainLogger.error(`get-year-los invoked with ${data}`);
-    const los = await import(`../../resources/outcomes/year-${data}.json`);
-    return los;
+    mainLogger.debug(`get-learning-outcomes invoked with ${data}`);
+    const learningOutcomes = await extractLearningOutcomes(data);
+    return learningOutcomes;
+  } catch (error) {
+    mainLogger.error(`get-learning-outcomes invoked with ${data} and returned ${error}`);
+    return error;
+  }
+});
+
+ipcMain.handle('get-outcome-details', async (_event, data) => {
+  try {
+    mainLogger.debug(`get-outcome-details invoked with ${JSON.stringify(data)}`);
+    const outcomeDetails = getOutcomeDetails(data.outcome, data.year);
+    return outcomeDetails;
   } catch (e) {
-    mainLogger.error(`get-year-los invoked with ${data} and returned ${e}`);
+    mainLogger.error(`get-outcome-details invoked with ${data} and returned ${e}`);
     return e;
   }
 });
 
 ipcMain.handle('get-evidence', async (_event, data) => {
-  const evidenceData = [];
   try {
-    mainLogger.error(`get-evidence invoked with ${JSON.stringify(data)}`);
-    await new Promise((resolve): void =>
-      data.repos.forEach(async (repo) => {
-        const evidence = await extractEvidenceCommits(repo.url, repo.user);
-        //@ts-ignore ignoring type error until i can be bothered to write up the types
-        evidenceData.push(...evidence);
-        //@ts-ignore
-        resolve();
-      })
-    );
-
-    const e = await getEvidence(data.year, evidenceData.concat());
-    return e;
+    mainLogger.debug(`get-evidence invoked with ${JSON.stringify(data)}`);
+    await fetchRepos();
+    const evidence = await getAllStudentEvidence(data.repos);
+    return evidence;
   } catch (e) {
     mainLogger.error(`get-evidence invoked with ${data} and returned ${e}`);
     return e;
@@ -156,4 +170,49 @@ ipcMain.handle('get-evidence', async (_event, data) => {
 
 ipcMain.on('renderer-log', (_event, data) => {
   rendererLogger[data.level](data.message);
+});
+
+ipcMain.on('handle-link', (_event, link: string) => {
+  console.log(link);
+  shell.openExternal(link);
+});
+
+ipcMain.on('pull-repos', async (_event, data) => {
+  try {
+    mainLogger.debug(`pull-repos invoked with ${data}`);
+    await fetchRepos();
+
+    console.log('fetching repos');
+    // Read the contents of the directory
+    fs.readdir(app.getPath('userData') + '/' + 'repositories', (err, files) => {
+      if (err) {
+        console.error('Error reading directory:', err);
+        return;
+      }
+
+      // Iterate through each file/directory
+      files.forEach(async (file) => {
+        const fullPath = path.join(app.getPath('userData') + '/' + 'repositories', file);
+
+        // Check if it's a directory
+        if (fs.statSync(fullPath).isDirectory()) {
+          console.log(`Fetching in ${file}...`);
+          // Use simple-git to fetch
+          extractLogs(fullPath)
+          screens.mainWindow.reload();
+        }
+      });
+    });
+  } catch (e) {
+    mainLogger.error(`pull-repos invoked with ${data} and returned ${e}`);
+  }
+});
+
+// This will need some serious optimisation, caching files etc as it loads everything on call
+ipcMain.handle('load-evidence', (_event, data) => {
+  const PUBLIC_REPOSITORIES_FOLDER = app.getPath('userData') + '/' + 'repositories';
+  const repoLocation = PUBLIC_REPOSITORIES_FOLDER + '/' + gitParse(data.repo);
+  const file = readFileSync(`${repoLocation}/${data.file}`, 'utf-8');
+  const render = renderMarkdown(repoLocation, file);
+  return render;
 });

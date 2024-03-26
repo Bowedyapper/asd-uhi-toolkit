@@ -143,6 +143,7 @@
 
   $: gitInputValue = '';
   $: isGitInputDisabled = false;
+  let currentGitUsersList: GitUserList[] = [];
   $: currentGitUsersList = [];
   $: selectedUser = '';
   $: gitLoaderText = '';
@@ -187,9 +188,6 @@
 
 <!-- eslint-disable @typescript-eslint/explicit-function-return-type-->
 <!-- https://github.com/sveltejs/svelte/issues/4701 for info about svelte inline TS -->
-<h1 class="absolute top bottom-8 left-8 font-bold text-2xl" id="year-of-study">
-  Year {$studentInfo.year}
-</h1>
 <h1 class="absolute font-bold text-4xl" id="add-repo-text">Lets add some repos</h1>
 
 <div id="git-input" class="w-[35rem] absolute mt-10">

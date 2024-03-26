@@ -5,14 +5,11 @@
   import ModuleCard from '$components/ModuleCard.svelte';
   import rendererLogger from '$lib/helpers/logger';
 
-  const getLearningOutcomes = async (year: number): Promise<UHIModule[]> => {
+  const getLearningOutcomes = async (year: number): Promise<CourseModule[]> => {
     return await window.electron.ipcRenderer.invoke('get-learning-outcomes', year);
   };
 
-  const getEvidence = async (
-    repos: StudentRepos[],
-    year: number
-  ): Promise<AllModulesCountsObject> => {
+  const getEvidence = async (repos: StudentRepos[], year: number): Promise<Evidence[]> => {
     return await window.electron.ipcRenderer.invoke('get-evidence', { repos: repos, year: year });
   };
 

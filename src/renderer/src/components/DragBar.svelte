@@ -2,7 +2,7 @@
     import LogoHeader from '$components/LogoHeader.svelte';
 </script>
 
-<div class="w-full drag flex flex-row justify-between bg-base-300 z-50">
+<div class="w-full drag flex flex-row justify-between bg-base-300 z-40">
   <LogoHeader></LogoHeader>
   <!-- eslint-disable @typescript-eslint/explicit-function-return-type-->
   <!-- https://github.com/sveltejs/svelte/issues/4701 for info about svelte inline TS -->
