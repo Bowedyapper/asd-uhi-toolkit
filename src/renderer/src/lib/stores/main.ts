@@ -6,6 +6,9 @@ export const dev = process.env.NODE_ENV === 'development' ? true : false;
 export const currentView: Writable<string> = writable('Setup');
 
 export const studentInfo: Writable<StudentInfo> = writable({
+  year: 3,
+  repositories: [
+  ]
 });
 
 export const studentEvidence: Writable<Evidence[]> = writable();
