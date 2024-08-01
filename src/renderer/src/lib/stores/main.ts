@@ -8,6 +8,14 @@ export const currentView: Writable<string> = writable('Setup');
 export const studentInfo: Writable<StudentInfo> = writable({
   year: 3,
   repositories: [
+    {
+      url: 'git@github.com:Bowedyapper/uhi-asd-year-3.git',
+      user: 'bowedyapper'
+    },
+    // {
+    //   url: 'git@gitlab.com:UHI-BScH-ASD/year-2-test.git',
+    //   user: 'Jason H'
+    // }
   ]
 });
 
@@ -23,4 +31,4 @@ animationSpeed.subscribe((value: number) => {
 
 export const gitLoaderText: Writable<string> = writable();
 
-export const devToolsEnabled: Writable<boolean> = writable(false);
+export const devToolsEnabled: Writable<boolean> = writable(true);
