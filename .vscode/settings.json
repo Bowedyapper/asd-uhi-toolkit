@@ -15,9 +15,12 @@
   "eslint.validate": ["javascript", "javascriptreact", "svelte"],
   "cSpell.words": [
     "btns",
+    "Colour",
     "copyfiles",
     "dragbar",
     "gsap",
+    "Initialising",
+    "Matchedto",
     "minimise",
     "pausable",
     "reponame",

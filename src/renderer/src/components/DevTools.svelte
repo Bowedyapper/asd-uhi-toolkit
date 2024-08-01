@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { animationSpeed, currentView } from '$lib/stores/main';
+  import { animationSpeed } from '$lib/stores/main';
   import { navigate } from 'svelte-routing';
 </script>
 
 <div
-  class="absolute right-4 bottom-4 bg-base-200 flex flex-col p-3 border border-base-100 rounded-md"
+  class="absolute right-4 bottom-4 bg-base-200 flex flex-col p-3 border border-base-100 rounded-md opacity-50 hover:opacity-100 duration-150"
 >
   <div class="text-sm font-medium">Dev tools</div>
   <div class="w-32">
@@ -42,6 +42,13 @@
       class="xt-button py-2 px-2 text-xs rounded-md uppercase text-gray-900 bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 on:bg-gray-200"
     >
       Test
+    </button>
+    <button
+      on:click={() => window.electron.ipcRenderer.send('pull-repos')}
+      type="button"
+      class="xt-button py-2 px-2 text-xs rounded-md uppercase text-gray-900 bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 on:bg-gray-200"
+    >
+      Pull Repos
     </button>
   </div>
 </div>

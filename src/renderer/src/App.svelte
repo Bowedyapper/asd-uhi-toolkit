@@ -10,11 +10,18 @@
   import Setup from '$routes/Setup.svelte';
   import Progress from '$routes/Progress.svelte';
   import Test from '$routes/Test.svelte';
+  import { devToolsEnabled } from '$lib/stores/main';
 
   export let url = '';
 
   onMount(() => {
     rendererLogger.silly('App.svelte mounted');
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'F12') {
+        devToolsEnabled.set(!$devToolsEnabled);
+      }
+    });
   });
 
   onDestroy(() => {
@@ -25,7 +32,7 @@
 <div class="h-screen w-screen flex flex-col">
   <DragBar />
 
-  {#if import.meta.env.DEV}
+  {#if import.meta.env.DEV && $devToolsEnabled}
     <div class="z-50">
       <DevTools />
     </div>

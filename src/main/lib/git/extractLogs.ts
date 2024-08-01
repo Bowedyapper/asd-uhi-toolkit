@@ -17,7 +17,7 @@ const extractLogs = (repoDir: string): void => {
 
   //disable ts warning
   // @ts-ignore no idea what the bottom param types are
-  git.log((err, log) => {
+  git.log(['--name-status'], (err, log) => {
     if (err) {
       console.error(err);
     } else {

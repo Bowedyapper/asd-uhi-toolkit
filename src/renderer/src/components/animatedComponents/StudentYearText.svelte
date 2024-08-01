@@ -29,11 +29,11 @@
       fontSize: '1.5rem',
       lineHeight: '2rem',
       stagger: 1,
-      bottom: '2rem',
-      left: '2rem',
+      top: '1.8rem',
+      right: '5rem',
       ease: 'power2.inOut'
     });
   });
 </script>
 
-<h1 class="absolute font-bold text-4xl -mt-20" id="year-of-study">Year {$studentInfo.year}</h1>
+<h1 class="absolute font-bold text-4xl z-[60]" id="year-of-study">Year {$studentInfo.year}</h1>

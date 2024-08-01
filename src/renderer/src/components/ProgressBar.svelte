@@ -1,6 +1,6 @@
 <script lang="ts">
-  export let value;
-  export let max; // Adjust this to your desired word limit
+  export let value: number;
+  export let max: number; // Adjust this to your desired word limit
 </script>
 
 <div class="relative w-32 bg-gray-900 rounded-lg">

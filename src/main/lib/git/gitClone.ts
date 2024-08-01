@@ -14,6 +14,7 @@ const gitClone = async (repo: string): Promise<void> => {
   await new Promise<void>((resolve, reject) => {
     if (!folderExists(`${PUBLIC_REPOSITORIES_FOLDER}/${repoName}`)) {
       try {
+        git.cwd(PUBLIC_REPOSITORIES_FOLDER);
         git.clone(
           repo,
           `${PUBLIC_REPOSITORIES_FOLDER}/${repoName}`,

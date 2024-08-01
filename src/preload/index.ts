@@ -27,3 +27,13 @@ if (process.contextIsolated) {
   window.electron = electronAPI;
   window.api = api;
 }
+
+// We dont want links opening inside electron, so this will delegate them to the default browser
+document.onclick = function (event) {
+  const target = event.target as HTMLElement;
+  const href = target.getAttribute('href');
+  if (target.tagName === 'A' && href && href.startsWith('http')) {
+    event.preventDefault();
+    electronAPI.ipcRenderer.send('handle-link', href);
+  }
+};
